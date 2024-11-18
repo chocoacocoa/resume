@@ -1,0 +1,443 @@
+body{
+        display: flex;
+        justify-content: center;
+        background-color: white;
+    }
+
+    .paper {
+        height: 160em;
+        background-color: white;
+        position: absolute;
+        width: 92.8em;
+        min-height: 100em;
+        box-shadow: 20px 20px 20px;
+        overflow: hidden;
+    }
+
+    .firstHalf {
+        position: relative;
+        padding: 10em;
+        width: 25em;
+        height: 40em;
+
+
+    }
+
+    .imgnname {
+        position: absolute;
+
+        padding: 20px;
+
+        left: 10px;
+        top: 10px;
+    }
+
+    .imgnname h1 {
+        position: absolute;
+        font-size: 80px;
+
+        left: 20px;
+
+    }
+
+    .imgnname h2 {
+        position: absolute;
+        top: 37em;
+
+    }
+
+    /*secondHalf*/
+    #second {
+        color: black;
+        padding: 20px;
+        height: 185em;
+        width: 45em;
+        position: relative;
+        left: 725px;
+        bottom: 960px;
+
+    }
+
+    /*aboutMe*/
+    .aboutMeStick {
+        background-color: black;
+        color: white;
+        position: absolute;
+        width: 97.5%;
+        height: 81px;
+        border-bottom-left-radius: 40px;
+        border-top-left-radius: 40px;
+
+    }
+
+    .aboutMeStick img {
+        position: relative;
+        width: 4em;
+        filter: invert(1);
+        left: 20px;
+        top: 10px;
+    }
+
+    .AboutMeStickText {
+        position: absolute;
+        left: 150px;
+    }
+
+    .aboutmetext {
+        position: absolute;
+        top: 1em;
+        font-size: 40px;
+        margin: 50px;
+        font-weight: bold;
+    }
+
+    /*aboutMe*/
+
+    /*education*/
+
+    .educationStick {
+        background-color: black;
+        color: white;
+        position: absolute;
+        width: 97.5%;
+        border-bottom-left-radius: 40px;
+        border-top-left-radius: 40px;
+        top: 25em;
+    }
+
+    .educationStick img {
+        position: relative;
+        width: 4em;
+        left: 20px;
+        padding: 5px;
+    }
+
+    .educationStickText {
+        position: absolute;
+        left: 150px;
+    }
+
+    .educationText {
+        position: absolute;
+        top: 10.5em;
+        font-size: 40px;
+        margin: 50px;
+        font-weight: bold;
+    }
+
+    /*aboutMe*/
+
+    /*workExperienceAndAffiliation*/
+    .workExpAndAffiliationStick {
+        background-color: black;
+        color: white;
+        position: absolute;
+        width: 97.5%;
+        border-bottom-left-radius: 40px;
+        border-top-left-radius: 40px;
+        top: 55em;
+    }
+
+    .workExpAndAffiliationText {
+        position: absolute;
+        top: 22.5em;
+        font-size: 40px;
+        margin: 50px;
+        font-weight: bold;
+    }
+
+    .workExpAndAffiliationStick img {
+        position: relative;
+        padding: 5px;
+        width: 4em;
+        left: 20px;
+    }
+
+    .workExpAndAffiliationStickText {
+        position: absolute;
+        left: 150px;
+    }
+
+    /*workExperienceAndAffiliation*/
+    /*Character Referrence*/
+
+    .characterReferrenceText {
+        position: absolute;
+        top: 47em;
+        font-size: 40px;
+        margin: 50px;
+        font-weight: bold;
+    }
+
+    /*Character Referrence*/
+    .characterReferrenceStick {
+
+        background-color: black;
+        color: white;
+        position: absolute;
+        width: 97.5%;
+        border-bottom-left-radius: 40px;
+        border-top-left-radius: 40px;
+        top: 117em;
+
+    }
+
+    .characterReferrenceStickText {
+        position: relative;
+        left: 120px;
+    }
+
+    /*.characterReferrenceStickText{
+    position: absolute;
+    left: 150;
+}*/
+    .subinformation {
+        font-size: 28px;
+
+
+    }
+
+    /*thirdhalf*/
+    .thirdhalf {
+        position: absolute;
+        width: 45em;
+        height: 100em;
+        margin: 0;
+        left: 0;
+        top: 60em;
+        bottom: 30em;
+    }
+
+    .contactStick {
+        background-color: black;
+        color: white;
+        position: absolute;
+        width: 97.5%;
+        border-bottom-right-radius: 40px;
+        border-top-right-radius: 40px;
+        top: 2%;
+    }
+
+    .contactStick img {
+        position: flex;
+        width: 4em;
+        filter: invert(1);
+        padding: 5px;
+    }
+
+    .contactStickText {
+        position: absolute;
+        left: 100px;
+    }
+
+    .contactText {
+        position: absolute;
+        top: 2em;
+        font-size: 40px;
+        margin: 50px;
+        font-weight: bold;
+    }
+
+    .skillStick {
+        background-color: black;
+        color: white;
+        position: absolute;
+        width: 97.5%;
+        border-bottom-right-radius: 40px;
+        border-top-right-radius: 40px;
+        top: 20%;
+        height: 5em;
+    }
+
+    .skillText {
+        position: absolute;
+        top: 9em;
+        font-size: 40px;
+        margin: 50px;
+        font-weight: bold;
+    }
+
+    .skillStick img {
+
+        width: 4em;
+        padding: 5px;
+    }
+
+    .skillStick h1 {
+        position: relative;
+        left: 4em;
+        bottom: 2.5em;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .paper {
+            height: 500em;
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            
+        }
+
+        .firstHalf {
+            
+            position: relative;
+            padding: 0;
+            width: 100%;
+            height: 10%;
+        }
+
+        .imgnname h1 {
+            font-size: 300%;
+        }
+
+        .imgnname h2 {
+            position: relative;
+            top: 130px;
+        }
+
+        .imgnname img {
+            width: 100%;
+        }
+
+
+
+        .thirdhalf {
+            position: absolute;
+            width: 100%;
+            height: 70em;
+            margin: 0;
+            top: 50em;
+            
+        }
+
+        .contactStick {
+            background-color: black;
+            color: white;
+            position: absolute;
+            width: 100%;
+            border-radius: 40px;
+            top: 2%;
+        }
+
+        .contactStick img {
+            position: relative;
+            width: 4em;
+            filter: invert(1);
+            padding: 5px;
+
+        }
+
+        .contactStickText {
+            position: absolute;
+            left: 100px;
+        }
+
+        .contactText {
+            position: absolute;
+            top: 1em;
+            font-size: 40px;
+            margin: 50px;
+            font-weight: bold;
+        }
+
+        .skill{
+            position: relative;
+            top: 15em;
+        }
+        .skillStick {
+            background-color: black;
+            color: white;
+            position: absolute;
+            width: 100%;
+            border-radius: 40px;
+            top: 20em;
+            height: 5em;
+        }
+
+        .skillText {
+            position: absolute;
+            top: 9em;
+            font-size: 40px;
+            margin: 50px;
+            font-weight: bold;
+        }
+
+        .skillStick img {
+
+            width: 4em;
+            padding: 5px;
+        }
+
+        .skillStick h1 {
+            position: relative;
+            left: 4em;
+            bottom: 2.5em;
+        }
+
+        #second {
+        
+        color: black;
+        height: auto;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 20px;
+        margin: 0;
+        position: relative;
+        left: 0;
+        right: 0;
+        margin-top: 130em;
+        
+        }
+        .aboutme{
+            position: relative;
+            margin-top: 30em;
+            
+        }
+        .aboutMeStick{
+            border-radius: 40px;
+        }
+        .education{
+            position: relative;
+            margin-top: 70em;
+            
+        }
+        .educationStick{
+            border-radius: 40px;
+        }
+        .work{
+            position: relative;
+            margin-top: 80em;
+        }
+        .workExpAndAffiliationStick{
+            border-radius: 40px;
+        }
+        .character{
+            position: relative;
+            margin-top: 150em;
+        }
+        .characterReferrenceStick{
+            border-radius: 40px;
+        }
+        .characterReferrenceStickText {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            
+            margin-left: 0;
+            left: 0;
+            
+            
+        }
+        .characterReferrenceText{
+            position: relative;
+            bottom: 0;
+            top: 50em;
+
+        }
+        .workExpAndAffiliationStickText {
+            position: absolute;
+            left: 150px;
+
+            font-size: small;
+        }
+    }
